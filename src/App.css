@@ -1,14 +1,21 @@
 .App {
   text-align: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  justify-content: space-between;
 }
 
-.App-logo {
-  height: 40vmin;
+body{
+  background-image: url(https://i.ibb.co/PzRmQzW/Purpink-jpg.png); 
+  background: cover;
 }
+
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  top:0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,6 +24,45 @@
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.navRouter{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.navRouter {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#3a1f14;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.appNav {
+  float: left;
+}
+
+.appNav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  margin: .5rem;
+}
+
+/* Change the link color to #111 (black) on hover */
+.appNav :hover {
+  background-color: rgba(242, 159, 4, 1);
+}
+
+.active {
+  background-color: rgba(165, 50, 8, 1);
 }
