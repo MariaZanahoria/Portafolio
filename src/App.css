@@ -1,68 +1,70 @@
-.App {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
-  box-sizing: border-box;
-  justify-content: space-between;
+:root {
+  --off-white: #fafafa;
 }
-
-body{
-  background-image: url(https://i.ibb.co/PzRmQzW/Purpink-jpg.png); 
-  background: cover;
-}
-
-
-.App-header {
-  top:0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.navRouter{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.navRouter {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color:#3a1f14;
-  position: -webkit-sticky; /* Safari */
+.nav {
+  background-color: var(--off-white);
   position: sticky;
-  top: 0;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  z-index: 1000;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
 }
 
-.appNav {
-  float: left;
+.nav-logo {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 2.5rem;
 }
 
-.appNav a {
-  display: block;
+.nav-logo:hover {
+  cursor: pointer;
+}
+
+.nav .nav-content {
+  max-width: 900px;
+  padding: 0rem 3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-item {
+  display: inline;
+  margin-left: 2rem;
+  color: #333;
+}
+
+.nav-item:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.section {
+}
+
+.section-dark {
+  background: #333;
   color: white;
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  border-top: white;
+  margin-bottom: -2rem;
+}
+
+.headerTop {
+  width: 100%;
+  height: 50%;
+  border-bottom-color: white;
+  margin-bottom: -2rem;
+}
+
+.title {
   text-align: center;
-  padding: 1rem 2rem;
-  text-decoration: none;
-  margin: .5rem;
-}
-
-/* Change the link color to #111 (black) on hover */
-.appNav :hover {
-  background-color: rgba(242, 159, 4, 1);
-}
-
-.active {
-  background-color: rgba(165, 50, 8, 1);
 }
