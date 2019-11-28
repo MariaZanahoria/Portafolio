@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mariaZanahoria.github.io/static/css/main.cf7231f2.chunk.css",
-    "main.js": "/mariaZanahoria.github.io/static/js/main.915a08b4.chunk.js",
-    "main.js.map": "/mariaZanahoria.github.io/static/js/main.915a08b4.chunk.js.map",
-    "runtime-main.js": "/mariaZanahoria.github.io/static/js/runtime-main.1ee5fe79.js",
-    "runtime-main.js.map": "/mariaZanahoria.github.io/static/js/runtime-main.1ee5fe79.js.map",
-    "static/js/2.41c03806.chunk.js": "/mariaZanahoria.github.io/static/js/2.41c03806.chunk.js",
-    "static/js/2.41c03806.chunk.js.map": "/mariaZanahoria.github.io/static/js/2.41c03806.chunk.js.map",
-    "index.html": "/mariaZanahoria.github.io/index.html",
-    "precache-manifest.7cff188e59600f69616c08303c0753c1.js": "/mariaZanahoria.github.io/precache-manifest.7cff188e59600f69616c08303c0753c1.js",
-    "service-worker.js": "/mariaZanahoria.github.io/service-worker.js",
-    "static/css/main.cf7231f2.chunk.css.map": "/mariaZanahoria.github.io/static/css/main.cf7231f2.chunk.css.map"
+    "main.css": "/static/css/main.cf7231f2.chunk.css",
+    "main.js": "/static/js/main.980ac538.chunk.js",
+    "main.js.map": "/static/js/main.980ac538.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.49405b90.js",
+    "runtime-main.js.map": "/static/js/runtime-main.49405b90.js.map",
+    "static/js/2.41c03806.chunk.js": "/static/js/2.41c03806.chunk.js",
+    "static/js/2.41c03806.chunk.js.map": "/static/js/2.41c03806.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2e3d88de44b394a9295980e8f7277e4d.js": "/precache-manifest.2e3d88de44b394a9295980e8f7277e4d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.cf7231f2.chunk.css.map": "/static/css/main.cf7231f2.chunk.css.map"
   }
 }
