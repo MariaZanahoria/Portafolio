@@ -2,19 +2,20 @@
   --off-white: #fafafa;
 }
 .nav {
-  background-color: var(--off-white);
-  position: sticky;
+  position: flex;
   top: 0px;
   width: 100%;
   height: 80px;
   z-index: 1000;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+  background-color: rgb(236, 199, 231);
 }
 
 .nav-logo {
-  height: 5rem;
-  width: 5rem;
+  height: 4.5rem;
+  width: 4.5rem;
   border-radius: 2.5rem;
+  margin-left: 4rem;
 }
 
 .nav-logo:hover {
@@ -22,32 +23,32 @@
 }
 
 .nav .nav-content {
-  max-width: 900px;
-  padding: 0rem 3rem;
-  margin: 0 auto;
+  width: 100%;
+  margin:  auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
+  height: auto;
 }
 
 .nav-item {
   display: inline;
-  margin-left: 2rem;
-  color: #333;
+  padding: .8rem;
+  color: rgb(12, 12, 12);
+  margin-right: 3rem;
 }
 
 .nav-item:hover {
-  color: black;
+  color: rgb(124, 2, 108);
+  background-color: rgb(255, 142, 255);
   cursor: pointer;
+  
 }
 
-.section {
-}
-
-.section-dark {
-  background: #333;
-  color: white;
+.project-content{
+  background-image: url(https://i.ibb.co/5xdMFxj/Purpink-jpg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .section-content {
@@ -65,6 +66,54 @@
   margin-bottom: -2rem;
 }
 
-.title {
-  text-align: center;
+.responsiveNav {
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  z-index: 1000;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsiveNav {
+    width: 49.99999%;
+    position: fixed;
+    width: 100%;
+    height: 2rem;
+    z-index: 1000;
+  }
+  .nav-logo {
+    margin-left: .2rem;
+  }
+  .nav-item {
+    display: inline;
+    padding: .5rem;
+    color: rgb(255, 251, 251);
+    margin-right: 0;
+  }
+  .headerTop {
+    margin-top: 5rem;
+  } 
+}
+
+@media only screen and (max-width: 500px) {
+  .responsiveNav {
+    position: fixed;
+    width: 100%;
+    height: 2rem;
+    z-index: 1000;
+  }
+  .nav-logo {
+    margin-left: .2rem;
+  }
+  .nav-item {
+    display: inline;
+    padding: .5rem;
+    color: rgb(255, 251, 251);
+    margin-right: 0;
+  }
+  .headerTop {
+    margin-top: 5rem;
+  }  
 }

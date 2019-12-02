@@ -8,6 +8,7 @@ export default class Navbar extends Component {
 
   render() {
     return (
+      <div className="responsiveNav">
         <nav className="nav" id="navbar">
           <div className="nav-content">
             <img
@@ -48,13 +49,14 @@ export default class Navbar extends Component {
               <li className="nav-item">
                 <Link
                   activeClass="active"
-                  to="section3"
+                  to="Contact"
+                  title="Info Personal"
                   spy={true}
                   smooth={true}
                   offset={-70}
                   duration={500}
                 >
-                  Section 3
+                  Contacto
                 </Link>
               </li>
               {/* <li className="nav-item">
@@ -71,7 +73,8 @@ export default class Navbar extends Component {
               </li> */}
             </ul>
           </div>
-        </nav>        
+        </nav>
+      </div>
     );
   }
 }

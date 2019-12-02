@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar";
-import Section from "./Components/Section";
-import Projects from "./Components/Projects"
-import SobreMi from "./Components/Section";
+import Projects from "./Components/Projects";
+import SobreMi from "./Components/AboutMe";
+import Contact from "./Components/Contact";
 class App extends Component {
   render() {
     return (
@@ -19,19 +19,14 @@ class App extends Component {
           id="AboutMe"
         />
         <Projects
+          className="project-content"
           title="Projects"
           id="Projects"
         />
-        {/* <Section
+        <Contact
           title="Section 3"
-          dark={true}
-          id="section3"
+          id="Contact"
         />
-        <Section
-          title="Section 4"
-          dark={false}
-          id="section4"
-        /> */}
       </div>
     );
   }
