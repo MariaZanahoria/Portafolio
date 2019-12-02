@@ -2,6 +2,7 @@
   "name": "portafolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mariazanahoria.github.io/Portafolio/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.10.1",
